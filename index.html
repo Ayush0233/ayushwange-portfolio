@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <audio id="guitarAudio" src="./images/guitar_sms.mp3" preload="auto"></audio>
+  <div class="container-fluid" id="container">
+    <div id="cursor"></div>
+    <div class="row justify-content-center" id="contain">
+      <!-- <div class="col-md-2 assume" id="menu">
+        <div class="row justify-content-center">
+
+          <div class="col-md-2" id="list">
+            <nav class="navbar navbar-expand-lg" id="navbar">
+              <div class="container-fluid">
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <div class="image" id="profileImage">
+                        <img src="./images/profile.jpg" class="img-fluid" alt="">
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">What I do</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-md-12 col-sm-12 assume scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar"
+        data-bs-root-margin="0px 0px 40%" data-bs-smooth-scroll="true" tabindex="0" id="main">
+
+        <div class="row">
+          <div class="col-md-8" id="intro">
+            <h2>Welcome</h2>
+            <div class="image" id="profileImage2">
+              <img src="./images/Ayush Wange.png" class="img-fluid" alt="">
+              <!-- <h3>Ayush Wange</h3> -->
+            </div>
+            <h1 class="myName">I'M
+              <span>A</span>
+              <span>Y</span>
+              <span>U</span>
+              <span>S</span>
+              <span>H</span>&nbsp;
+              <span>W</span>
+              <span>A</span>
+              <span>N</span>
+              <span>G</span>
+              <span>E</span>
+            </h1>
+
+            <div class="flip">
+              <div id="introSkill">
+                <h4 class="mask front" data-text="Web Developer">Front-End Developer </h4>
+                <h4 class="mask back">Web Developer</h4>
+              </div>
+            </div>
+            <h4 class="location">based in <span>Maharashtra</span>, India.</h4>
+            <button class="btn btn2 hirebtn"><span>Hire me</span></button>
+            <p class="fw-600 mt-5 fs-2"><i class="bi bi-arrow-down"></i></p>
+            <img src="./images/lamp2.png" class="img-fluid hanging" alt="">
+            <img src="./images/lamp1.png" class="img-fluid light2" alt="">
+          </div>
+          <div class="col-md-8" id="about">
+            <div id="heading">
+              <h1>About Me</h1>
+              <h4>Know Me More
+                <span class="bottom_line"></span>
+              </h4>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col-md-7 col-sm-7" id="description">
+                <h2>Let's Build something <span>Cool</span></h2>
+                <ul>
+                  <li>I will help you to build your brand at an affordable price.</li>
+                  <li>I have an exceptional skills in web designing and in developing those designs.</li>
+                  <li>Delivering the work within the time and budget.</li>
+                  <li>Providing Best user experience (UX).</li>
+                </ul>
+                <a href="https://drive.google.com/uc?export=download&id=10Yi0dwyMPKBHWlpCsqeChgo6GSlg53y3" id="cvBtn"
+                  download>
+                  <button class="btn btn2 cvBtn"><span>Download CV</span></button>
+                </a>
+              </div>
+              <div class="col-md-4 col-sm-4 mt-3" id="sideDesc">
+                <h5><span>Name: </span>Ayush Wange</h5>
+                <h5><span>Email: </span>happyliving2409@gmail.com</h5>
+                <h5><span>Age: </span>21</h5>
+                <h5><span>From: </span>Nagpur, India</h5>
+              </div>
+              <div class="row justify-content-evenly" id="clients">
+                <div class="col-2 ">
+                  <h1>5+</h1>
+                  <p>Happy Clients</p>
+                </div>
+                <div class="col-2">
+                  <h1>5+</h1>
+                  <p>Internships</p>
+                </div>
+                <div class="col-2">
+                  <h1>10+</h1>
+                  <p>Projects</p>
+                </div>
+                <div class="col-2">
+                  <h1>5+</h1>
+                  <p>Certification</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-8 " id="services">
+            <div id="heading">
+              <h1>Services</h1>
+              <h4>What I Do
+                <span class="bottom_line"></span>
+              </h4>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-columns-gap"></i>
+                  </div>
+                  <h1>Full Stack Application</h1>
+                  <p>Beginner in Designing Full stack Web applications using Next JS</p>
+                </div>
+              </div>
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-amazon"></i>
+                  </div>
+                  <h1>AWS Practitioner</h1>
+                  <p>AWS restart Graduate, learned about the basic AWS services.</p>
+                </div>
+              </div>
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-columns-gap"></i>
+                  </div>
+                  <h1>Front-End</h1>
+                  <p>Proficient in developing elegant and responsive front-ends.</p>
+                </div>
+              </div>
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-display-fill"></i>
+                  </div>
+                  <h1>Web Designs</h1>
+                  <p>Proficient in developing elegant and responsive front-ends.</p>
+                </div>
+              </div>
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-pencil-fill"></i>
+                  </div>
+                  <h1>UI/UX Design</h1>
+                  <p>Proficient in developing elegant and responsive front-ends.</p>
+                </div>
+              </div>
+              <div class="col-md-6 serviceBox">
+                <div class="style-3 mb-5">
+                  <div class="iconBox bg-white shadow-sm rounded">
+                    <i class="bi bi-palette-fill"></i>
+                  </div>
+                  <h1>Graphics Design</h1>
+                  <p>Proficient in developing elegant and responsive front-ends.</p>
+                </div>
+              </div>
+            </div>
+            <div id="string">
+              <svg width="1000" height="300" id="longWeb">
+                <path d="M 10 100 Q 500 100, 990 100" stroke="white" fill="transparent" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-8" id="resume">
+            <div id="heading">
+              <h1>Summary</h1>
+              <h4>Resume
+                <span class="bottom_line"></span>
+              </h4>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col-md-5 col-sm-5 resumeHeading education">
+                <h1>My Education</h1>
+                <div class="education-card rounded">
+                  <p class="badge">2019</p>
+                  <h3>Matriculation</h3>
+                  <h5>Maharashtra Board</h5>
+                  <ul>
+                    <li>Nirmal English School</li>
+                    <li>Percentage : 86.60 %</li>
+                    <li>Completed in 2019</li>
+                  </ul>
+                </div>
+                <div class="education-card rounded">
+                  <p class="badge">2019-2021</p>
+                  <h3>Higher Secondary</h3>
+                  <h5>Maharashtra Board</h5>
+                  <ul>
+                    <li>Model Junior College, Arvi</li>
+                    <li>Stream : General Science</li>
+                    <li>Percentage :94.33 %</li>
+                  </ul>
+                </div>
+                <div class="education-card rounded">
+                  <p class="badge">2021-2024</p>
+                  <h3>Graduation</h3>
+                  <h5>Nagpur University (RTMNU)</h5>
+                  <ul>
+                    <li>G H Raisoni Institute of Engineering and Technology </li>
+                    <li>Bachelor of Computer Application <span class="fw-bold">[ BCA ]</span> </li>
+                    <li>CGPA : 9.38</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-5  resumeHeading internship">
+                <h1>My Internships</h1>
+                <div class="education-card rounded">
+                  <p class="badge">June 2023</p>
+                  <h3>Web Development</h3>
+                  <h5>Let's Grow More</h5>
+                  <ul>
+                    <li>Earned Letter of Recommendation [ LOR ]</li>
+                    <li>Data fetching from APIs</li>
+                    <li>Web application designing</li>
+                  </ul>
+                </div>
+                <div class="education-card rounded">
+                  <p class="badge">July 2023</p>
+                  <h3>Content Writer</h3>
+                  <h5>CodeClause</h5>
+                  <ul>
+                    <li>Earned Letter of Recommendation [ LOR ] </li>
+                    <li>Creating neutral perspective about social topics.</li>
+                    <li>Creative Thinking</li>
+                  </ul>
+                </div>
+                <div class="education-card rounded">
+                  <p class="badge">March 2022</p>
+                  <h3>Campus Ambassador</h3>
+                  <h5>GCOE, Nagpur</h5>
+                  <ul>
+                    <li>Communication </li>
+                    <li>Covincing</li>
+                    <li>Influencing Others</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-11 skillLoader resumeHeading">
+                <h1>My Skills</h1>
+                <div class="row justify-content-evenly">
+                  <div class="col-md-5 progressCard">
+                    <h4><span>HTML/CSS</span> <span>95%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>Javascript</span> <span>80%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>Bootstrap</span> <span>85%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>Tailwind CSS</span> <span>85%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>REACT</span> <span>70%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>Next Js </span> <span>70%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-5 progressCard">
+                    <h4><span>Angular</span> <span>50%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 50%"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 progressCard">
+                    <h4><span>C++</span> <span>60%</span></h4>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 45%"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8" id="projects">
+            <div id="heading">
+              <h1>Projects</h1>
+              <h4>My Work
+                <span class="bottom_line"></span>
+              </h4>
+            </div>
+            <div id="fixedImage" class="rounded"></div>
+            <div class="row justify-content-evenly " id="project-card-row">
+              <div class="col-md-10 main-project" data-image="./images/tastik.png">
+                <a href="https://notesmatecell.netlify.app" target="_blank">
+                  <h1>Tastik</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project" data-image="./images/vidyaAi.png">
+                <a href="https://aividya.vercel.app/" target="_blank">
+                  <h1>Vidya AI GPT</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project" data-image="./images/image.png">
+                <a href="https://sjf-fcfs-simulation.vercel.app/" target="_blank">
+                  <h1>Visualisation Tool</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/notesmate_i3txqp.png">
+                <a href="https://notesmatecell.netlify.app" target="_blank">
+                  <h1>NotesMate</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/Screenshot_2024-09-14_173432_uxoihk.png">
+                <a href="https://github-status-tracker.netlify.app/" target="_blank">
+                  <h1>Github Status Tracker</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/Screenshot_2024-09-14_173355_e2rxfh.png">
+                <a href="https://digitalclock2409.netlify.app/" target="_blank">
+                  <h1>Digital Clock</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/ZEGGNRb-1280_c4op5l.jpg">
+                <a href="https://softmicroclone.netlify.app/" target="_blank">
+                  <h1>Microsoft Clone</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871996/projects/tinzqxqafnr6xaq3yhqi.png">
+                <a href="https://foodies2409.netlify.app/" target="_blank">
+                  <h1>Foodies Website</h1>
+                </a>
+              </div>
+              <div class="col-md-10 main-project main-project-last"
+                data-image="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871991/projects/wqjphl233x5uxhrkm7p6.png">
+                <a href="https://pizza-shop2409.netlify.app/" target="_blank">
+                  <h1>Pizza Shop</h1>
+                </a>
+              </div>
+
+            </div>
+            <div class="row justify-content-evenly show-project-block">
+              <div class="col-md-3  show-project">
+                <img src="./images/shivling.gif" alt="" class="img-fluid rounded">
+                <!-- <video src="./images/shivling.gif" class="img-fluid rounded" autoplay loop></video> -->
+
+              </div>
+              <div class="col-sm-5 col-md-3 col-5 show-project">
+                <img src="./images/brother.gif" alt="" class="img-fluid rounded">
+                <!-- <video src="./images/brotherBond.mp4" class="img-fluid rounded" autoplay loop></video> -->
+
+              </div>
+              <div class="col-sm-6 col-md-3 col-6 show-project">
+                <img src="./images/letter.gif" alt="" class="img-fluid rounded">
+                <!-- <video src="./images/licorice.gif.mp4" class="img-fluid rounded" autoplay loop></video> -->
+
+              </div>
+              <div class="col-md-5 show-project">
+                <img src="./images/rjlicorice.gif" alt="" class="img-fluid rounded">
+                <!-- <video src="./images/letter.mp4" class="img-fluid rounded" autoplay loop></video> -->
+              </div>
+              <div class="col-sm-6 col-md-5 col-6 show-project">
+                <img src="./images/flower.gif" alt="" class="img-fluid rounded">
+              </div>
+
+              <!-- <div class="col-sm-5 col-md-4 col-5 show-project">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871987/projects/pfd8cfsujtc59m9h8ed4.png"
+                  alt="" class="img-fluid rounded">
+                <video src="./images/" class="img-fluid rounded" autoplay loop></video>
+
+              </div>
+              <div class="col-sm-5 col-md-3 col-5 show-project">
+                <video src="./images/calci.mp4" class="img-fluid rounded" autoplay loop speed="2"></video>
+              </div>
+              <div class="col-sm-6 col-md-4 col-6 show-project">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871987/projects/jsqhmnoijns8ocqlrldg.png"
+                  alt="" class="img-fluid rounded">
+                <video src="./images/Love_Card.mp4" class="img-fluid rounded" autoplay loop></video>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-8" id="contact">
+            <div id="heading">
+              <h1>Contact</h1>
+              <h4>Get in Touch
+                <span class="bottom_line"></span>
+              </h4>
+            </div>
+            <div class="row justify-content-evenly" id="contactBox">
+              <div class="col-md-3 col-sm-3 address contactHeading">
+                <h1>Address</h1>
+                <h5>Maroti Ward, Old Wardha Road, Arvi, Dist- Wardha - 442201</h5>
+                <ul>
+                  <li class="email"><a href="mailto:happyliving2409@gmail.com"><i class="bi bi-envelope-at"></i>
+                      <span> Email</span></a></li>
+                  <li class="linkedin"><a href="https://www.linkedin.com/in/ayush-wange-621721267/"><i
+                        class="bi bi-linkedin"></i> <span>&nbsp;LinkedIn</span></a></li>
+
+                  <li class="insta"><a href="https://www.instagram.com/ayush_wange/"><i class="bi bi-instagram"></i>
+                      <span>&nbsp;Instagram</span></a></li>
+
+
+                  <li class="github"><a href="https://github.com/Ayush0233"><i class="bi bi-github"></i>
+                      <span>&nbsp;Github</span></a></li>
+
+                </ul>
+              </div>
+              <div class="col-md-7 form col-sm-7 contactHeading">
+                <h1>Send a Note</h1>
+                <form class="row g-3" action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="c150a913-8d82-4636-838a-078c676b9cce">
+                  <div class="col-md-5">
+                    <input type="text" class="form-control" name="name" id="validationDefault01" placeholder="Full Name"
+                      required>
+                  </div>
+                  <div class="col-md-5">
+                    <input type="mail" name="email" class="form-control" id="validationDefault02" placeholder="Email"
+                      required>
+                  </div>
+                  <div class="col-md-10">
+                    <textarea name="message" rows="5" class="form-control" id="validationDefault03" required
+                      placeholder="Tell me more about your needs..."></textarea>
+                  </div>
+                  <div class="col-md-10 " id="msg">
+                    <button class="btn msgbtn" type="submit">Send Message</span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8" id="footer">
+            <div class="row justify-content-evenly footerSec">
+              <div class="col-md-5 " id="copy">
+                <h5>Copyright <span>©</span> 2024 Ayush. All Rights Reserved.</h5>
+              </div>
+              <div class="col-md-6" id="tc">
+                <h5>Terms & Conditions | Disclaimer</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+
+</html>
+
+
+
+<!-- <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713872856/projects/i0juax7qkyzejnfbwqqm.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Shivling illustration</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871990/projects/n8f5bslahzeldsj7lugv.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Github Status Tracker</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/iamsujal/image/upload/v1706382339/NoteSync-Projects/digitalclock.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Digital Clock</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img src="https://shots.codepen.io/username/pen/ZEGGNRb-1280.jpg?version=1581436503" alt=""
+                  class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">MS Clone</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713872857/projects/eh3mf5wzdfvpy3vm4kyh.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Registration System</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871996/projects/tinzqxqafnr6xaq3yhqi.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Shivling illustration</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871988/projects/fldsk0gjjckhzpq2b36n.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">To Do List</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871988/projects/lf3kdsggemmg1thafrj3.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Qoute Generator</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713872855/projects/f2knukjrvlg3gcgx095s.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Text Analyzer</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713872857/projects/pqvrrunafg6dagpnqgwe.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Key Checker</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871996/projects/tinzqxqafnr6xaq3yhqi.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Foodies Website</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871991/projects/wqjphl233x5uxhrkm7p6.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Pizza Shop</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871987/projects/pfd8cfsujtc59m9h8ed4.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Word Counter</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871988/projects/lqi4djd97odx8mfb0zsv.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Calculator</a>
+                </div>
+              </div>
+              <div class="col-md-3 project rounded">
+                <img
+                  src="https://res.cloudinary.com/dokmzm1kc/image/upload/v1713871987/projects/jsqhmnoijns8ocqlrldg.png"
+                  alt="" class="img-fluid">
+                <div class="project-overlay">
+                  <a href="#">Contact App</a>
+                </div>
+              </div> -->
